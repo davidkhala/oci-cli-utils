@@ -1,4 +1,4 @@
-## TODO Test
+
 linux(){
   curl https://raw.githubusercontent.com/davidkhala/linux-utils/main/oracle/oci-cli.sh | bash -s install 
 }
@@ -10,7 +10,5 @@ brew(){
   brew update && brew install oci-cli
 
 }
-windows(){
-  echo See in https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm#InstallingCLI__windows
-}
+
 $@
