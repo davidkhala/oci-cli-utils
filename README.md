@@ -3,7 +3,8 @@
 
 ## Notes
 - After install ** Close and re-open PowerShell to reload changes to your PATH **
-
+- [JSON format input template](compute-template.json) can be exported by
+    - `oci compute instance launch --generate-full-command-json-input > compute-template.json`
 ## Reference
 - [OCI CLI: Quickstart](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm)
 
