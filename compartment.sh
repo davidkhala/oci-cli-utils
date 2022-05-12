@@ -12,4 +12,7 @@ list() {
 namespace() {
     oci os ns get --query "data" --raw-output
 }
+policy(){
+    oci iam policy list --query "data" $@
+}
 $@

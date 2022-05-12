@@ -1,5 +1,5 @@
 list(){
-    oci os bucket list --compartment-id $compartmentID
+    oci os bucket list --query "data" $@
 }
 
 $@
