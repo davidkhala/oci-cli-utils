@@ -6,13 +6,13 @@ search() {
     # get compartment ocid from compartment name
     oci iam compartment list --all --compartment-id-in-subtree true --query "data[?name=='${compartmentName}'].id | [0]" --raw-output $@
 }
+
 list() {
     oci iam compartment list --all --query "data" $@
 }
-namespace() {
-    oci os ns get --query "data" --raw-output
-}
-policy(){
+
+policy() {
     oci iam policy list --query "data" $@
 }
+
 $@
