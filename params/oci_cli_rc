@@ -1,7 +1,8 @@
 [DEFAULT]
-compartment-id=ocid1.tenancy.oc1..aaaaaaaakatveh74zmu3624wgdcs2zcud5emtkpeqrv3b4xnc6gwlw52nvtq
+compartment-id=ocid1.compartment.oc1..aaaaaaaaw2hdbvkul6ocyl6lrowdiu3y44sop4owoya5nrmhlsx7d3gbyrea
 auth=instance_principal
 query=data
+region=ap-singapore-1
 
 [OCI_CLI_CANNED_QUERIES]
 # For list results, this gets the ID and display-name of each item in the list. Note that when the names of attirbutes have

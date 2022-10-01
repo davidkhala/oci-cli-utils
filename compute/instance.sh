@@ -13,6 +13,6 @@ inspect() {
 }
 list() {
     
-    oci compute instance list --all --compartment-id $compartmentID --query "data" $@
+    oci compute instance list --all $@
 }
 $@

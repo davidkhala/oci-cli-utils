@@ -11,6 +11,7 @@ brew() {
 }
 init() {
   oci setup oci-cli-rc
+  vi ~/.oci/oci_cli_rc
 }
 
 $@
