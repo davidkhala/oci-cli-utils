@@ -1,5 +1,5 @@
 linux() {
-  bash -c "$(curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh)"
+  curl https://raw.githubusercontent.com/davidkhala/linux-utils/main/oracle/oci-cli.sh | bash -s install
 }
 OracleLinux7() {
   sudo yum install python36-oci-cli
